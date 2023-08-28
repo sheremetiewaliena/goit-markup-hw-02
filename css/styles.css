@@ -1,4 +1,5 @@
 :root {
+  /* colors */
   --color-iris: #4d5ae5;
   --color-navy-blue: #2e2f42;
   --color-slate: #434455;
@@ -34,10 +35,12 @@ ul {
   color: var(--color-navy-blue);
   line-height: 1.5;
 }
-.header-link:hover {
+.header-link:hover,
+.header-link:focus {
   color: var(--color-iris);
 }
-.address-link:hover {
+.address-link:hover,
+.address-link:focus {
   color: var(--color-iris);
 }
 .address-link {
@@ -57,13 +60,14 @@ ul {
   line-height: 1.07;
   text-align: center;
 }
-.hero-button {
-  background-color: var(--color-iris);
-}
-.hero-button:hover {
+
+.hero-button:hover,
+.hero-button:focus {
   background-color: var(--color-ocean);
 }
 .hero-button {
+  background-color: var(--color-iris);
+  cursor: pointer;
   color: var(--color-white);
   border: none;
   line-height: 1.5;
