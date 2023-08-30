@@ -111,7 +111,7 @@ ul {
   background-color: var(--color-cloud);
 }
 .our-team-photo {
-  color: var(--color-white);
+  background-color: var(--color-white);
 }
 .our-team-h {
   color: var(--color-navy-blue);
